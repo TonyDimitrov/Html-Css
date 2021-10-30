@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    color: #35404D;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+main {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 90%;
+    border-radius: 10px;
+    background-color: #F6F8F9;
+}
+
+main>article{
+    width: 35%;
+}
+
+img {
+    max-width: 350px;
+}
+
+h3 {
+    font-size: 12px;
+    margin-top: 60px;
+    margin-bottom: 6px;
+}
+
+h1 {
+    font-size: 33px;
+    font-weight: 100;
+    margin-top: 16px;
+}
+
+p {
+    line-height: 1.7;
+}
+
+button.contact {
+    padding: 10px 15px;
+    border: none;
+    background-color: #786EFF;
+    color: white;
+    border-radius: 4px;
+    margin-right: 2%;
+    letter-spacing: 0.7px;
+}
+
+button.learn {
+    padding: 8px 13px;
+    border-radius: 4px;
+    border: solid 2px #35404D;
+    font-weight: 700;
+    letter-spacing: 0.7px;
+}
